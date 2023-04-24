@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>About</title>
-	<link href="styles.css" rel="stylesheet">
+	<link href="lphan.css" rel="stylesheet">
 </head>
 <body>
 	<nav>
@@ -12,21 +12,47 @@
 	        <li class="crumb"><a href="./about.html">About</a></li>
 	    </ol>
 	</nav>
+<!-- 
 
+Create a button that allows the user to request a random restaurant recommendation. 
+Add an event listener in Javascript listens for a click on the button. When the button is clicked, 
+your Javascript should call a new function that you write, which chooses a random restaurant for the user.
+ -->
 	<content>
 		<h1>About</h1>
 
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-		non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		
+			My neighborhood has more news articles currently than usual. It has
+			title one schools and accomodating meal plans. I am close to Walmart, Kroger and Publix
+			so it's a little suburban town I suppose.
 		</p>
+		<table>
+			<tr id="trHeader">
+			  <th class ="thead">Restaurants</th>
+			  <th class="thead">Parks </th>
+			  <th class ="thead">Stuff to do</th>
+			</tr>
+			<tr>
+			  <td><a href="https://restaurants.applebees.com/en-us/ga/jonesboro/6727-tara-blvd-98092">Applebees</a></td>
+			  <td><a href="http://www.cityofmorrow.com/government-cityhall.asp">City Hall</a></td>
+			  <td><a href="https://www.amctheatres.com/movie-theatres/atlanta/amc-southlake-24">Watch a movie</a></td>
+			</tr>
+			<tr>
+				<td><a href="https://www.crackerbarrel.com/Locations/States/ga/morrow/38">Cracker Barrel</a></td>
+				<td><a href="https://www.exploregeorgia.org/jonesboro/outdoors-nature/beaches/clayton-county-international-park">International Park</a></td>
+				<td><a href="https://spiveyhall.org/">Listen to music</a></td>
+			</tr>
+			<tr>
+			  
+				<td><a href="https://www.yelp.com/biz/great-chow-morrow">Great Chow</a></td>
+			  <td><a href="https://www.forestparkga.gov/parksrec/page/starr-park">Starr Park</a></td>
+			  <td><a href="https://www.claytonparks.com/reynolds-nature-preserve/">View nature</a></td>
+			</tr>
+		  </table>
+		  
 
 	</content>
-
+	<button class ="restaurants">Generate random restaurant</button>
+	<script src="food.js"></script>
 </body>
 </html>
